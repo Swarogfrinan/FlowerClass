@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		30BD71F2728AC876037CB4BD /* Pods_FlowerClass.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAB95CF6C1E707F6B974C40E /* Pods_FlowerClass.framework */; };
+		4364D41F299C25A80032F051 /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 4364D41E299C25A80032F051 /* FlowerClassifier.mlmodel */; };
 		CA19E294248027EB00930B4B /* WikiData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA19E293248027EB00930B4B /* WikiData.swift */; };
 		CA432B63247EB57F005D156B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA432B62247EB57F005D156B /* AppDelegate.swift */; };
 		CA432B65247EB57F005D156B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA432B64247EB57F005D156B /* SceneDelegate.swift */; };
@@ -18,11 +19,11 @@
 		CA91D79D247EEB820041465D /* Capitaliser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA91D79C247EEB820041465D /* Capitaliser.swift */; };
 		CAA34A5B2482B10D00111BC8 /* WikiResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA34A5A2482B10D00111BC8 /* WikiResults.swift */; };
 		CAADAAD92481845C0063F989 /* FlowerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAADAAD82481845C0063F989 /* FlowerModel.swift */; };
-		FD658CA7260636850055759E /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FD658CA6260636850055759E /* FlowerClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		00BFE5ADD15D93F2D51E37F1 /* Pods-FlowerClass.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerClass.debug.xcconfig"; path = "Target Support Files/Pods-FlowerClass/Pods-FlowerClass.debug.xcconfig"; sourceTree = "<group>"; };
+		4364D41E299C25A80032F051 /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = "<group>"; };
 		CA19E293248027EB00930B4B /* WikiData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikiData.swift; sourceTree = "<group>"; };
 		CA432B5F247EB57F005D156B /* FlowerClass.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerClass.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA432B62247EB57F005D156B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,7 +38,6 @@
 		CAADAAD82481845C0063F989 /* FlowerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerModel.swift; sourceTree = "<group>"; };
 		F744AA2759474105D2DC550B /* Pods-FlowerClass.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FlowerClass.release.xcconfig"; path = "Target Support Files/Pods-FlowerClass/Pods-FlowerClass.release.xcconfig"; sourceTree = "<group>"; };
 		FAB95CF6C1E707F6B974C40E /* Pods_FlowerClass.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FlowerClass.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD658CA6260636850055759E /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +98,6 @@
 				CA432B6B247EB584005D156B /* Assets.xcassets */,
 				CA432B6D247EB584005D156B /* LaunchScreen.storyboard */,
 				CA432B70247EB584005D156B /* Info.plist */,
-				FD658CA6260636850055759E /* FlowerClassifier.mlmodel */,
 			);
 			path = FlowerClass;
 			sourceTree = "<group>";
@@ -126,6 +125,7 @@
 				CAADAAD82481845C0063F989 /* FlowerModel.swift */,
 				CAA34A5A2482B10D00111BC8 /* WikiResults.swift */,
 				CA91D79C247EEB820041465D /* Capitaliser.swift */,
+				4364D41E299C25A80032F051 /* FlowerClassifier.mlmodel */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -249,7 +249,7 @@
 				CAA34A5B2482B10D00111BC8 /* WikiResults.swift in Sources */,
 				CA432B67247EB57F005D156B /* ViewController.swift in Sources */,
 				CAADAAD92481845C0063F989 /* FlowerModel.swift in Sources */,
-				FD658CA7260636850055759E /* FlowerClassifier.mlmodel in Sources */,
+				4364D41F299C25A80032F051 /* FlowerClassifier.mlmodel in Sources */,
 				CA432B63247EB57F005D156B /* AppDelegate.swift in Sources */,
 				CA432B65247EB57F005D156B /* SceneDelegate.swift in Sources */,
 				CA19E294248027EB00930B4B /* WikiData.swift in Sources */,

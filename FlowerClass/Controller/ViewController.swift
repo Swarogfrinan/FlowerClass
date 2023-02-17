@@ -1,5 +1,6 @@
 
 import UIKit
+import CoreML
 import Vision
 import SDWebImage
 
@@ -21,7 +22,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         getWikiData.delegate = self
         textView.text = ""
     }
-    
+     
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
         if let takenPicture = info[.editedImage] as? UIImage {
