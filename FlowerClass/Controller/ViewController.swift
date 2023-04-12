@@ -6,11 +6,15 @@ import SDWebImage
 
 class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
+    //MARK: Properties
+    
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var textView: UITextView!
     
     let imagePicker = UIImagePickerController()
     var getWikiData = GetWikiData()
+    
+     //MARK: Lifecycle
     
     override func viewDidLoad() {
         super.viewDidLoad()
