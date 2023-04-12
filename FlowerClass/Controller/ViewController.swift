@@ -26,7 +26,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         getWikiData.delegate = self
         textView.text = ""
     }
-     
+     //MARK: Methods
     func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
         
         if let takenPicture = info[.editedImage] as? UIImage {
@@ -68,6 +68,8 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
         present(imagePicker, animated: true, completion: nil)
     }
 }
+
+//MARK: Wiki methods
 
 extension ViewController: WikiData {
     
